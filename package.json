@@ -18,6 +18,7 @@
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
+    "netlify-identity-widget": "^1.9.2",
     "solid-js": "^1.6.10"
   }
 }
