@@ -11,7 +11,7 @@ netlifyIdentity.init({
 const App: Component = () => {
   return (
     <div class={styles.App}>
-      <h1 class="text-3xl font-bold underline text-red-600 dark:text-purple-300">polar bear</h1>
+      <h1 class="text-3xl font-bold underline text-main-purple text-main-purple-fallback">Kit-List</h1>
       <button onClick={()=>{netlifyIdentity.open()}}>Login</button>
     </div>
   );
