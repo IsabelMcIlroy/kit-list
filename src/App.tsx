@@ -10,7 +10,7 @@ netlifyIdentity.init({
 });
 const App: Component = () => {
   return (
-    <div class={styles.App}>
+    <div class="bg-light-gray">
       <Header/>
     </div>
   );
