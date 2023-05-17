@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "main-logo-color-fallback": "#5D0473",
-        "main-logo-color": "color(display-p3 0.43 0.02 0.92)",
+        "main-logo-fallback": "#5D0473",
+        "main-logo": "color(display-p3 0.43 0.02 0.92)",
         "action-color": "#9ECD3A",
         "dark-gray": "#BFB6AF",
         "light-gray": "#F2EDED",
