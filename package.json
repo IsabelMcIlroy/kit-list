@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "@netlify/functions": "^1.4.0",
+    "@solidjs/router": "^0.8.2",
+    "idb": "^7.1.1",
     "netlify-identity-widget": "^1.9.2",
     "solid-js": "^1.6.10"
   }
