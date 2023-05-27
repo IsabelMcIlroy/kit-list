@@ -1,5 +1,6 @@
 import { createSignal } from "solid-js";
 import netlifyIdentity from 'netlify-identity-widget';
+import styles from './Header.module.css';
 
 export default () => {
     const [isLoggedIn, setIsLoggedIn] = createSignal(netlifyIdentity.currentUser() != null);
